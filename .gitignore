@@ -1,2 +1,42 @@
-/.env
-/.work
+# Environment & secrets
+.env
+.env.local
+.env.*.local
+
+# Work dir (bundle download, extraction)
+.work/
+
+# Go
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+/vendor/
+*.test
+*.out
+go.work
+go.work.sum
+
+# Build / IDE
+/bin/
+/dist/
+/build/
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Ent generated (optional: uncomment if you want to ignore generated ent code)
+# /ent/generated/
+
+# Debug / coverage
+*.log
+coverage.html
+coverage.out
+*.prof

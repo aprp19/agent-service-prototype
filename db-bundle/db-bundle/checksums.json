@@ -1,0 +1,8 @@
+{
+  "baseline/20260220_000_baseline.sql": "sha256:d19e683b196637c3c70dc23b96c8adf917beea133315eda7a83e27d3c2e0a416",
+  "checks/smoke.sql": "sha256:622e04a54f0ae9a28d645577e193647409daab86ec5e4d8ea31445ab04551598",
+  "manifest.json": "sha256:0c0d617e204a9235a0b050505164f77d4b37f70792a381b03901bf6a7153da36",
+  "migrations/20260220_001_add_employee_nik.sql": "sha256:1f17708945875a186d96baf1dd36aea9316a07d3ed5a060683f7c24cedb3de2a",
+  "migrations/20260220_002_create_index_employee_nik_notx.sql": "sha256:5bfdc8d5499e62a86674341ec543c092e1045441288899b88067bb7a07158b58",
+  "migrations/20260220_003_add_employee_phone.sql": "sha256:befb82b45f050e8cd772908b637a8b4d453d19379d3622fa3757f1d4b387e61b"
+}

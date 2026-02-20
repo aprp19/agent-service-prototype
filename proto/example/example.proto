@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+package example;
+
+option go_package = "agent-service-prototype/proto/example;example";
+
+// Example service
+service ExampleService {
+  // Health check
+  rpc Health(HealthRequest) returns (HealthResponse);
+  
+  // TODO: Add your service methods here
+  // Example:
+  // rpc Authenticate(AuthenticateRequest) returns (AuthenticateResponse);
+}
+
+// HealthRequest - Health check request
+message HealthRequest {}
+
+// HealthResponse - Health check response
+message HealthResponse {
+  string status = 1;
+}
